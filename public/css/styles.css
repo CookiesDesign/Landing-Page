@@ -1,6 +1,8 @@
 .bg-primary {
-  background-color: #1abc9c  !important;
-}
+  background-color: #000  !important;
+  }
+
+
 
 .masthead .masthead-avatar {
   width: 15rem;
@@ -38,12 +40,28 @@
   border-color:  black;
 }
 
-
-.container {
-  display: grid;
-  grid-column: auto;
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}
  
 
 @media (min-width: 992px) {
