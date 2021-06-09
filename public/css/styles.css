@@ -1,9 +1,14 @@
 .bg-primary {
-  background-color: rgb(229,9,20)  !important;
+  background-color: #141414  !important;
   }
 
+.navbar-custom{
+  background-color:rgb(229,9,20);
 
-
+}
+.navbar-brand{
+  color: white;
+}
 .masthead .masthead-avatar {
   width: 15rem;
 }
