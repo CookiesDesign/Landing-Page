@@ -11,5 +11,6 @@
 - HTML & CSS
 - JavaScript 
 - Github
+- Trello
 
 ------------
